@@ -37,7 +37,7 @@ function CategoryMenu() {
       currentCategory: id
     });
   };
-  
+
   return (
     <div>
       <h2>Choose a Category:</h2>
@@ -45,7 +45,7 @@ function CategoryMenu() {
         <button
           key={item._id}
           onClick={() => {
-            setCategory(item._id);
+            handleClick(item._id);
           }}
         >
           {item.name}
