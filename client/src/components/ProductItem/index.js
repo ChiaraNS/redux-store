@@ -39,7 +39,7 @@ function ProductItem(item) {
     }
   }
 
-  
+
   return (
     <div className="card px-1 py-1">
       <Link to={`/products/${_id}`}>
@@ -53,7 +53,7 @@ function ProductItem(item) {
         <div>{quantity} {pluralize("item", quantity)} in stock</div>
         <span>${price}</span>
       </div>
-      <button>Add to cart</button>
+      <button onClick={addToCart}>Add to cart</button>
     </div>
   );
 }
