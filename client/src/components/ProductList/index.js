@@ -42,7 +42,7 @@ function ProductList() {
     }
 
     return state.products.filter(
-      (product) => product.category._id === currentCategory
+      product => product.category._id === currentCategory
     );
   }
 
