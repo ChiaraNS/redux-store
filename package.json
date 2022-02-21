@@ -14,7 +14,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "concurrently": "^7.0.0"
+    "concurrently": "^7.0.0",
+    "gh-pages": "^3.2.3"
   },
   "dependencies": {
     "react-redux": "^7.2.6",
