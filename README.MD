@@ -2,7 +2,7 @@
 
 ![Redux Store](./client/public/images/reduxstore-sc.png)
 ## Table of contents
-* [Redux Store Link](https://chiarans.github.io/redux-store/)
+* [Redux Store Link](https://shop-shop-redux-store.herokuapp.com/)
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Installation](#installation)
